@@ -1,0 +1,61 @@
+﻿  Bee.cpp
+  BlackPepper.cpp
+  BlackPepper_k.cpp
+  Bubble.cpp
+  Cat.cpp
+  Coconut.cpp
+  Coin.cpp
+  Cow.cpp
+  Empty.cpp
+  Essence.cpp
+  EssenceDelete.cpp
+  Fish.cpp
+  Flower.cpp
+  Goldegg.cpp
+  Goose.cpp
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\Goose.cpp(21,19): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  GreenPepper.cpp
+  GreenPepper_k.cpp
+  Halfcoconut.cpp
+  Hugetreasure.cpp
+  Key.cpp
+  正在生成代码...
+  正在编译...
+  Lockbox.cpp
+  LockRemover.cpp
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\LockRemover.cpp(28,30): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\LockRemover.cpp(50,30): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\LockRemover.cpp(72,30): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\LockRemover.cpp(94,30): warning C4244: “参数”: 从“time_t”转换到“unsigned int”，可能丢失数据
+  LockRemover_k.cpp
+  Magickey.cpp
+  main.cpp
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\main.cpp(57,6): warning C4101: “dayCount”: 未引用的局部变量
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\main.cpp(56,6): warning C4101: “playergold”: 未引用的局部变量
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\main.cpp(60,6): warning C4101: “essenceCount”: 未引用的局部变量
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\main.cpp(58,6): warning C4101: “deleteCount”: 未引用的局部变量
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\main.cpp(59,6): warning C4101: “refreshCount”: 未引用的局部变量
+  Milk.cpp
+  Monkey.cpp
+C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\luckyhome\Monkey.cpp(11,16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  MonkeyOlivander.cpp
+  MonkeyOlivander_k.cpp
+  Pearl.cpp
+  Pearl.h
+  Props.cpp
+  PropsDelete.cpp
+  PropsTraversal.cpp
+  Rain.cpp
+  RainCloud.cpp
+  RainCloud_k.cpp
+  Steelsafe.cpp
+  Strawberry.cpp
+  Sun.cpp
+  正在生成代码...
+  正在编译...
+  Thing.cpp
+  thingTraversal.cpp
+  Treasure.cpp
+  正在生成代码...
+x64\Debug\Pearl.obj : warning LNK4042: 对象被多次指定；已忽略多余的指定
+  luckyhome.vcxproj -> C:\Users\ZhuanZ\Desktop\lucky_home\Lucky-Landlord_c\luckyhome\x64\Debug\luckyhome.exe

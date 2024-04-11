@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>17.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{fb84eb4f-e208-4074-b27e-9f1ceaf49dc0}</ProjectGuid>
+    <RootNamespace>luckyhome</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EntryPointSymbol>
+      </EntryPointSymbol>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="Bee.h" />
+    <ClInclude Include="BlackPepper.h" />
+    <ClInclude Include="BlackPepper_k.h" />
+    <ClInclude Include="Bubble.h" />
+    <ClInclude Include="Cat.h" />
+    <ClInclude Include="Coconut.h" />
+    <ClInclude Include="Coin.h" />
+    <ClInclude Include="Cow.h" />
+    <ClInclude Include="Empty.h" />
+    <ClInclude Include="Essence.h" />
+    <ClInclude Include="EssenceDelete.h" />
+    <ClInclude Include="Fish.h" />
+    <ClInclude Include="Flower.h" />
+    <ClInclude Include="Goldegg.h" />
+    <ClInclude Include="Goose.h" />
+    <ClInclude Include="GreenPepper.h" />
+    <ClInclude Include="GreenPepper_k.h" />
+    <ClInclude Include="Halfcoconut.h" />
+    <ClInclude Include="Hugetreasure.h" />
+    <ClInclude Include="Key.h" />
+    <ClInclude Include="Lockbox.h" />
+    <ClInclude Include="LockRemover.h" />
+    <ClInclude Include="LockRemover_k.h" />
+    <ClInclude Include="Magickey.h" />
+    <ClInclude Include="Milk.h" />
+    <ClInclude Include="Monkey.h" />
+    <ClInclude Include="MonkeyOlivander_k.h" />
+    <ClInclude Include="MonkeyOlivander.h" />
+    <ClInclude Include="Props.h" />
+    <ClInclude Include="PropsDelete.h" />
+    <ClInclude Include="PropsTraversal.h" />
+    <ClInclude Include="Rain.h" />
+    <ClInclude Include="RainCloud.h" />
+    <ClInclude Include="RainCloud_k.h" />
+    <ClInclude Include="Steelsafe.h" />
+    <ClInclude Include="Strawberry.h" />
+    <ClInclude Include="Sun.h" />
+    <ClInclude Include="Thing.h" />
+    <ClInclude Include="thingTraversal.h" />
+    <ClInclude Include="Treasure.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Bee.cpp" />
+    <ClCompile Include="BlackPepper.cpp" />
+    <ClCompile Include="BlackPepper_k.cpp" />
+    <ClCompile Include="Bubble.cpp" />
+    <ClCompile Include="Cat.cpp" />
+    <ClCompile Include="Coconut.cpp" />
+    <ClCompile Include="Coin.cpp" />
+    <ClCompile Include="Cow.cpp" />
+    <ClCompile Include="Empty.cpp" />
+    <ClCompile Include="Essence.cpp" />
+    <ClCompile Include="EssenceDelete.cpp" />
+    <ClCompile Include="Fish.cpp" />
+    <ClCompile Include="Flower.cpp" />
+    <ClCompile Include="Goldegg.cpp" />
+    <ClCompile Include="Goose.cpp" />
+    <ClCompile Include="GreenPepper.cpp" />
+    <ClCompile Include="GreenPepper_k.cpp" />
+    <ClCompile Include="Halfcoconut.cpp" />
+    <ClCompile Include="Hugetreasure.cpp" />
+    <ClCompile Include="Key.cpp" />
+    <ClCompile Include="Lockbox.cpp" />
+    <ClCompile Include="LockRemover.cpp" />
+    <ClCompile Include="LockRemover_k.cpp" />
+    <ClCompile Include="Magickey.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Milk.cpp" />
+    <ClCompile Include="Monkey.cpp" />
+    <ClCompile Include="MonkeyOlivander.cpp" />
+    <ClCompile Include="MonkeyOlivander_k.cpp" />
+    <ClCompile Include="Pearl.cpp" />
+    <ClCompile Include="Pearl.h" />
+    <ClCompile Include="Props.cpp" />
+    <ClCompile Include="PropsDelete.cpp" />
+    <ClCompile Include="PropsTraversal.cpp" />
+    <ClCompile Include="Rain.cpp" />
+    <ClCompile Include="RainCloud.cpp" />
+    <ClCompile Include="RainCloud_k.cpp" />
+    <ClCompile Include="Steelsafe.cpp" />
+    <ClCompile Include="Strawberry.cpp" />
+    <ClCompile Include="Sun.cpp" />
+    <ClCompile Include="Thing.cpp" />
+    <ClCompile Include="thingTraversal.cpp" />
+    <ClCompile Include="Treasure.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="刷新.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

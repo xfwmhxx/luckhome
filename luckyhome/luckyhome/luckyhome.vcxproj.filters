@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Event">
+      <UniqueIdentifier>{23acfe92-5eca-4a91-bf73-5477e5061f35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Propses">
+      <UniqueIdentifier>{fdaff401-995c-4d73-8763-966faa6f4b19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Essences">
+      <UniqueIdentifier>{5188676f-2520-4cae-bd56-9c92ab6b3ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Propsees_h">
+      <UniqueIdentifier>{d70b30ae-52f2-4cf6-9bbe-2597124e160e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Things_h">
+      <UniqueIdentifier>{15b2cd0c-02ea-449c-982b-4d60da15d254}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Things">
+      <UniqueIdentifier>{74103707-0563-40c4-8873-2af66eda3ba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Essences_h">
+      <UniqueIdentifier>{7cae6ef0-9ae7-4b04-af2b-bd84e100f1de}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Normal_function_h">
+      <UniqueIdentifier>{525c5087-1a22-42a9-973c-a939bd34f931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Normal_function">
+      <UniqueIdentifier>{8a1e46b5-db76-49ee-98bb-1bc68c9b5a64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Essence.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Props.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Thing.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackPepper.h">
+      <Filter>头文件\Propsees_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenPepper.h">
+      <Filter>头文件\Propsees_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LockRemover.h">
+      <Filter>头文件\Propsees_h</Filter>
+    </ClInclude>
+    <ClInclude Include="MonkeyOlivander.h">
+      <Filter>头文件\Propsees_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RainCloud.h">
+      <Filter>头文件\Propsees_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Bee.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Bubble.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Cat.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Empty.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Coconut.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Coin.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Cow.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Fish.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Flower.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Goldegg.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Goose.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Halfcoconut.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Hugetreasure.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Lockbox.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Magickey.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Milk.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Monkey.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Rain.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Steelsafe.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Strawberry.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Sun.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Treasure.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClInclude>
+    <ClInclude Include="BlackPepper_k.h">
+      <Filter>头文件\Essences_h</Filter>
+    </ClInclude>
+    <ClInclude Include="GreenPepper_k.h">
+      <Filter>头文件\Essences_h</Filter>
+    </ClInclude>
+    <ClInclude Include="LockRemover_k.h">
+      <Filter>头文件\Essences_h</Filter>
+    </ClInclude>
+    <ClInclude Include="MonkeyOlivander_k.h">
+      <Filter>头文件\Essences_h</Filter>
+    </ClInclude>
+    <ClInclude Include="RainCloud_k.h">
+      <Filter>头文件\Essences_h</Filter>
+    </ClInclude>
+    <ClInclude Include="PropsDelete.h">
+      <Filter>头文件\Normal_function_h</Filter>
+    </ClInclude>
+    <ClInclude Include="EssenceDelete.h">
+      <Filter>头文件\Normal_function_h</Filter>
+    </ClInclude>
+    <ClInclude Include="PropsTraversal.h">
+      <Filter>头文件\Normal_function_h</Filter>
+    </ClInclude>
+    <ClInclude Include="thingTraversal.h">
+      <Filter>头文件\Normal_function_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Thing.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Props.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Essence.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackPepper.cpp">
+      <Filter>源文件\Propses</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenPepper.cpp">
+      <Filter>源文件\Propses</Filter>
+    </ClCompile>
+    <ClCompile Include="LockRemover.cpp">
+      <Filter>源文件\Propses</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkeyOlivander.cpp">
+      <Filter>源文件\Propses</Filter>
+    </ClCompile>
+    <ClCompile Include="RainCloud.cpp">
+      <Filter>源文件\Propses</Filter>
+    </ClCompile>
+    <ClCompile Include="BlackPepper_k.cpp">
+      <Filter>源文件\Essences</Filter>
+    </ClCompile>
+    <ClCompile Include="GreenPepper_k.cpp">
+      <Filter>源文件\Essences</Filter>
+    </ClCompile>
+    <ClCompile Include="LockRemover_k.cpp">
+      <Filter>源文件\Essences</Filter>
+    </ClCompile>
+    <ClCompile Include="MonkeyOlivander_k.cpp">
+      <Filter>源文件\Essences</Filter>
+    </ClCompile>
+    <ClCompile Include="RainCloud_k.cpp">
+      <Filter>源文件\Essences</Filter>
+    </ClCompile>
+    <ClCompile Include="Bee.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Bubble.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Empty.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Cat.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Coconut.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Coin.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Cow.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Fish.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Flower.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Goldegg.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Goose.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Halfcoconut.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Hugetreasure.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Lockbox.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Magickey.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Milk.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Monkey.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Pearl.h">
+      <Filter>头文件\Things_h</Filter>
+    </ClCompile>
+    <ClCompile Include="Pearl.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Rain.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Steelsafe.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Strawberry.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Sun.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="Treasure.cpp">
+      <Filter>源文件\Things</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="PropsDelete.cpp">
+      <Filter>源文件\Normal_function</Filter>
+    </ClCompile>
+    <ClCompile Include="EssenceDelete.cpp">
+      <Filter>源文件\Normal_function</Filter>
+    </ClCompile>
+    <ClCompile Include="PropsTraversal.cpp">
+      <Filter>源文件\Normal_function</Filter>
+    </ClCompile>
+    <ClCompile Include="thingTraversal.cpp">
+      <Filter>源文件\Normal_function</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="刷新.txt" />
+  </ItemGroup>
+</Project>
